@@ -1,0 +1,272 @@
+/************************/
+/* 	      MAIN          */
+/************************/
+body {
+  margin: auto;
+  font-family: 'Mukta', sans-serif;
+  scroll-behavior: smooth;
+}
+
+
+
+/************************/
+/* 	       NAV         */
+/************************/
+header {
+  position: sticky;
+	top: 10px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 2em;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+}
+
+nav li a {
+  text-decoration: none;
+  font-size: 1.1em;
+  font-weight: 600;
+  color: #000000;
+  margin: 1em;
+}
+
+nav li a:hover, nav li a:active {
+  color: #FF2D00;
+}
+
+
+
+/************************/
+/* 	     COLORS         */
+/************************/
+.square {
+  width: 100px;
+  height: 100px;
+}
+.flex {
+  display: flex; 
+}
+
+
+.my-primary {
+	background-color: #FF2D00;
+}
+.my-text-primary {
+  color: #FF2D00;	
+}
+
+.my-secondary {
+	background-color: #FF6D4D;
+}
+.my-text-secondary {
+  color: #FF6D4D;	
+}
+
+.my-light {
+	background-color: #F2EFE9;
+}
+.my-text-light {
+  color: #F2EFE9;	
+}
+
+.my-white {
+	background-color: #FFFFFF;
+}
+.my-text-white {
+  color: #FFFFFF;	
+}
+
+.my-black {
+	background-color: #000000;
+}
+.my-text-black {
+  color: #000000;	
+}
+
+/* 	    COULEURS BTN ALERTS        */
+/* tons oranges */
+.my-warning {
+  background-color: #FFEB19;
+  opacity: 0.4;
+}
+/* tons rouges */
+.my-danger {
+  background-color: #FF2D00;
+  opacity: 0.4;
+}
+/* tons vertes */
+.my-success {
+  background-color: #12B31E;
+  opacity: 0.3;
+}
+/* tons bleues */
+.my-info {
+  background-color: #19D3FF;
+  opacity: 0.3;
+}
+
+
+
+/************************/
+/* 	    TYPO        */
+/************************/
+
+h1, h2, h3, h4, h5, h6, a {
+  font-family: 'JetBrains Mono', monospace;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+
+p {
+  letter-spacing: .5px;
+  font-size: 1em;
+}
+.lead {
+  font-weight: 600;
+}
+
+blockquote {
+  font-style: italic;
+  font-weight: 600;
+}
+
+
+
+/************************/
+/* 	    BOUTTONS        */
+/************************/
+
+
+
+.my-btn-primary {
+  padding: .7em;
+  border: 1px solid #FF2D00;
+  background-color: #FFFFFF;
+  color: #FF2D00;
+  font-size: 1em;
+  letter-spacing: 1px;
+}
+.my-btn-primary:hover {
+  background-color: #FF2D00;
+  color: #FFFFFF;
+}
+.my-btn-primary-sm {
+  font-size: .8em;
+}
+
+.my-btn-primary-lg {
+  font-size: 1.15em;
+  padding: 1em;
+}
+
+
+
+.my-btn-secondary {
+  padding: .7em;
+  border: 1px solid #FFFFFF;
+  background-color: #FF2D00;
+  color: #FFFFFF;
+  font-size: 1em;
+  letter-spacing: 1px;
+}
+.my-btn-secondary:hover {
+  background-color: #FFFFFF;
+  border: 1px solid #FF2D00;
+  color: #FF2D00;
+}
+.my-btn-secondary-sm {
+  font-size: .8em;
+}
+.my-btn-secondary-lg {
+  font-size: 1.15em;
+  padding: 1em;
+}
+
+
+
+
+.my-link {
+  text-decoration: none;
+  color: #FF2D00;
+  font-size: 1em;
+}
+.my-link:hover {
+  color: #FF2D00;
+  border-bottom: 2px solid #FF2D00;
+}
+
+.my-link-sm {
+  font-size: .8em;
+}
+.my-link-lg {
+  font-size: 1.2em;
+}
+
+
+/************************/
+/* 	     ALERTS         */
+/************************/
+.my-alert {
+  width: 100%;
+  padding: 5px;
+  border: none;
+  color: black;
+  font-size: 0.9em;
+  font-weight: 400;
+}
+
+/************************/
+/* 	    ICONS        */
+/************************/
+.icon {
+  width: 20px;
+}
+
+
+
+/************************/
+/* 	      CARDS         */
+/************************/
+
+.my-card-hover{
+  transition: all .2s ease-in-out;
+}
+.my-card-hover:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.my-border-card {
+  border: 3px solid #FF2D00;
+}
+
+/************************/
+/* 	    LISTS        */
+/************************/
+.my-list li {
+  font-size: 0.9em;
+  list-style: none;
+}
+
+.my-border-list {
+  border: 3px solid #FF2D00;
+}
+
+.my-border-list-bottom {
+  border-bottom: 1px solid #FF6D4D;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
